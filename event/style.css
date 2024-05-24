@@ -1,0 +1,364 @@
+img {
+  width: 100%;
+}
+
+.nav_container {
+  width: 80%;
+  margin: 0 auto;
+  clear: both;
+}
+
+a {
+  display: inline-block;
+  color: #333;
+  text-decoration: none;
+}
+
+nav {
+  background: #fff;
+  height: 80px;
+  line-height: 80px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+nav ul.navbar-menu {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  float: right;
+}
+nav ul.navbar-menu li {
+  display: inline-block;
+  margin: 0 10px;
+}
+nav ul.navbar-menu li a {
+  color: #666;
+  font-size: 14px;
+}
+nav a#brand {
+  text-transform: uppercase;
+
+  font-weight: 800;
+  font-size: 20px;
+}
+nav button {
+  background: none;
+  width: 30px;
+  height: 40px;
+  margin-top: 20px;
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+  display: none;
+}
+nav button span {
+  width: 30px;
+  height: 40px;
+  height: 2px;
+  background: #333;
+  display: block;
+  margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+  nav ul.navbar-menu {
+    display: none;
+  }
+
+  nav button {
+    display: block;
+  }
+}
+
+footer {
+  padding-top: 70px;
+  padding-left: 100px;
+  padding-bottom: 60px;
+}
+
+.col3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer img {
+  width: 50%;
+}
+
+footer h4 {
+  font-weight: bolder;
+}
+
+.footer_nav {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer_nav li {
+  margin-bottom: 30px;
+}
+
+.footer_nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer_nav a:hover {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+.sign_up_button {
+  border: 1px solid black;
+  background-color: transparent;
+  color: black;
+  padding: 10px 36px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 0;
+}
+/**** layout main **/
+.billed1 {
+  position: relative;
+  width: 100%;
+  margin: auto;
+}
+
+.billed1 img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.billed1 h1,
+.billed1 h2 {
+  position: absolute;
+  color: black; /* Change the text color as needed */
+
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 100%;
+}
+
+.billed1 h1 {
+  top: 18%;
+  font-size: 3rem; /* Adjust the font size as needed */
+  color: black;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.billed1 h2 {
+  top: 27%;
+  font-size: 1.3em; /* Adjust the font size as needed */
+  color: black;
+  font-weight: 100;
+  text-transform: uppercase; /* Make text uppercase */
+}
+.billed1 h2 .highlight {
+  color: #eb5e28; /* Apply the specific color to the highlighted words */
+}
+
+.grid_1_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.h3 {
+  font-size: 3rem;
+  padding-left: 90px;
+  padding-top: 90px;
+}
+.highlight {
+  color: #eb5e28;
+}
+
+.tekstevent {
+  font-size: 1.5rem;
+  padding-left: 90px;
+}
+.billed2 {
+  padding-top: 90px;
+}
+
+.grafik {
+  padding-top: 50px;
+  margin: 50px;
+}
+
+.grafik img {
+  border-radius: 300px;
+}
+.sign_event {
+  border: 1px solid #084646;
+  background-color: #084646;
+  color: white;
+  padding: 10px 36px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 0;
+  margin-left: 100px;
+}
+h4 {
+  text-align: center;
+  font-size: large;
+}
+h5 {
+  font-size: x-large;
+}
+
+@media (max-width: 768px) {
+  .grid_1_1 {
+    display: grid;
+    grid-template-columns: none;
+  }
+
+  .billed1 h1 {
+    top: 18%;
+    font-size: 3rem; /* Adjust the font size as needed */
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  }
+
+  .billed1 h2 {
+    top: 27%;
+    font-size: 1.3em; /* Adjust the font size as needed */
+    color: black;
+    font-weight: 100;
+    text-transform: uppercase; /* Make text uppercase */
+  }
+  .billed1 h2 .highlight {
+    color: #eb5e28; /* Apply the specific color to the highlighted words */
+  }
+}
+
+.container {
+  text-align: center; /* Center the content */
+  max-width: 1000px; /* Adjust as needed */
+  margin: auto; /* Center the container */
+  padding: 20px; /* Add some padding around the content */
+  border-radius: 15px; /* Add rounded corners to the container */
+}
+
+.image-wrapper {
+  position: relative;
+}
+
+.image {
+  width: 100%; /* Ensure the image fits the container width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 15px; /* Rounded corners for the image */
+}
+
+.text-overlay {
+  position: absolute;
+  top: 40%;
+  left: 51%;
+  transform: translate(-50%, -50%);
+  color: white; /* Text color */
+  text-align: center;
+
+  border-radius: 10px; /* Optional: Rounded corners for the overlay */
+}
+.sign_event_bund {
+  border: 1px solid #084646;
+  background-color: #084646;
+  color: white;
+  padding: 10px 36px;
+  font-size: 10px;
+  cursor: pointer;
+  border-radius: 0;
+  margin-left: -75px;
+  position: absolute;
+  top: 87%;
+}
+
+/** slider **/
+.slider {
+  position: relative;
+  width: 100%;
+
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.slides {
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slides img {
+  width: 100%;
+  height: auto;
+  margin: 10px;
+}
+
+.navigation {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+.navigation button {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+  font-size: 2em;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.navigation button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/***slider2**/
+
+.slider2 {
+  position: relative;
+  width: 100%;
+
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.slides {
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slides img {
+  width: 100%;
+  height: auto;
+  margin: 10px;
+}
+
+.navigation2 {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+.navigation button {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+  font-size: 2em;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.navigation button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
