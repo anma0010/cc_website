@@ -27,6 +27,16 @@ h3 {
   text-transform: uppercase;
 }
 
+h4 {
+  font-family: "ibm_plex_serifregular";
+  text-transform: uppercase;
+}
+
+h5 {
+  font-family: "ibm_plex_serifregular";
+  text-transform: uppercase;
+}
+
 p {
   font-family: "montserratregular";
   text-transform: uppercase;
