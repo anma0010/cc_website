@@ -1,0 +1,177 @@
+@media (min-width: 750px) {
+  p {
+    max-width: 55ch;
+  }
+  .CopCaplogo {
+    width: 60%;
+    height: auto;
+    display: block;
+    padding: 3rem;
+    margin-left: 8rem;
+  }
+  .billede1 {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: absolute;
+    margin-block: 5rem;
+    left: 33%;
+    top: 0%;
+  }
+
+  h2 {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    margin-top: 10rem;
+    font-size: 48px;
+    margin-bottom: -4rem;
+  }
+  h1 {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 88px;
+    margin-bottom: 7rem;
+  }
+
+  h3 {
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 5rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+  }
+
+  label {
+    font-family: "IBM Plex Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .text {
+    font-family: "IBM Plex Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 2.5rem;
+  }
+  .knap {
+    background-color: #1c4445; /* Green */
+    border: none;
+    color: white;
+    padding: 14px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 28px;
+    position: absolute;
+    cursor: pointer;
+    font-family: "IBM Plex Serif", serif;
+    left: 45%;
+    top: 150%;
+    border-radius: 20px;
+    margin-top: 8rem;
+  }
+
+  .grid1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.1rem;
+  }
+  form {
+    margin-right: 12rem;
+    padding: 3rem;
+  }
+}
+/***************         MOBILSITE      ***************/
+@media (max-width: 750px) {
+  p {
+    max-width: 55ch;
+  }
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .CopCaplogo {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 3rem;
+  }
+  .billede1 {
+    margin-bottom: -5rem;
+  }
+
+  h2 {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    margin-top: 10rem;
+    font-size: 34px;
+    margin-bottom: -3rem;
+  }
+  h1 {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 62px;
+    margin-bottom: 7rem;
+  }
+
+  h3 {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 5rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+  }
+  label {
+    font-family: "IBM Plex Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .text {
+    font-family: "IBM Plex Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 2.5rem;
+  }
+  .knap {
+    background-color: #1c4445; /* Green */
+    border: none;
+    color: white;
+    padding: 14px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: absolute;
+    cursor: pointer;
+    font-family: "IBM Plex Serif", serif;
+    left: 37%;
+    top: 150%;
+    border-radius: 20px;
+    margin-top: 8rem;
+  }
+
+  .grid1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.1rem;
+  }
+  form {
+    padding: 2rem;
+  }
+}
