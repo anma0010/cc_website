@@ -51,7 +51,7 @@ p {
   clear: both;
 }
 
-a {
+.nav_container a {
   display: inline-block;
   color: #333;
   text-decoration: none;
@@ -263,4 +263,7 @@ footer h4 {
   font-family: "montserratregular;";
   padding: 10px;
   font-size: 0.5rem;
+}
+.footersignup a {
+  color: black;
 }
