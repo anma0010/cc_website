@@ -1,4 +1,4 @@
-footer {
+/* footer {
   padding-top: 70px;
   padding-left: 100px;
   padding-bottom: 60px;
@@ -44,4 +44,85 @@ footer h4 {
   font-size: 16px;
   cursor: pointer;
   border-radius: 0;
+} */
+footer {
+  padding-top: 70px;
+  padding-left: 100px;
+  padding-bottom: 60px;
+  margin-top: 6rem;
+}
+
+.col3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer img {
+  width: 50%;
+}
+
+footer h4 {
+  font-weight: bolder;
+}
+
+.footer_nav {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer_nav li {
+  margin-bottom: 30px;
+}
+
+.footer_nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer_nav a:hover {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+.sign_up_button {
+  border: 1px solid black;
+  background-color: transparent;
+  color: black;
+  padding: 10px 36px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 0;
+}
+.footersignup a {
+  color: black;
+}
+
+A:link {
+  color: black;
+  text-decoration: None;
+}
+@media (max-width: 768px) {
+  footer .col3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-right: 93px;
+  }
+
+  footer .col3 div {
+    margin-bottom: 20px;
+  }
+
+  .footer_nav {
+    padding: 0;
+    list-style: none;
+  }
+
+  .footer_nav li {
+    margin-bottom: 10px;
+  }
+  footer .col3 {
+    text-align: center;
+  }
 }
