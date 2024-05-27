@@ -1,3 +1,7 @@
+html {
+  --primary: #eb5e28;
+}
+
 @font-face {
   font-family: "ibm_plex_serifregular";
   src: url("ibmplexserif-regular-webfont.woff2") format("woff2"), url("ibmplexserif-regular-webfont.woff") format("woff");
@@ -206,7 +210,7 @@ footer h4 {
 }
 
 .nav-button-right1 {
-  background-color: #eb5e28;
+  background-color: var(--primary);
   color: black;
   font-family: "montserratregular;";
   padding: 10px;
