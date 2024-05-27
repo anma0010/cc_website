@@ -2,76 +2,10 @@ img {
   width: 100%;
 }
 
-.nav_container {
-  width: 80%;
-  margin: 0 auto;
-  clear: both;
-}
-
 a {
   display: inline-block;
   color: white;
   text-decoration: none;
-}
-
-nav {
-  background: #fff;
-  height: 80px;
-  line-height: 80px;
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
-  position: sticky;
-  top: 0;
-  left: 0;
-  width: 100%;
-}
-
-nav ul.navbar-menu {
-  margin: 0;
-  padding: 0;
-  display: inline-block;
-  float: right;
-}
-nav ul.navbar-menu li {
-  display: inline-block;
-  margin: 0 10px;
-}
-nav ul.navbar-menu li a {
-  color: #666;
-  font-size: 14px;
-}
-nav a#brand {
-  text-transform: uppercase;
-
-  font-weight: 800;
-  font-size: 20px;
-}
-nav button {
-  background: none;
-  width: 30px;
-  height: 40px;
-  margin-top: 20px;
-  border: none;
-  display: inline-block;
-  cursor: pointer;
-  display: none;
-}
-nav button span {
-  width: 30px;
-  height: 40px;
-  height: 2px;
-  background: #333;
-  display: block;
-  margin: 5px 0;
-}
-
-@media (max-width: 768px) {
-  nav ul.navbar-menu {
-    display: none;
-  }
-
-  nav button {
-    display: block;
-  }
 }
 
 footer {
@@ -306,6 +240,12 @@ h5 {
   }
   h3 {
     font-size: 0rem;
+  }
+
+  h4 {
+    text-align: center;
+    font-family: bolder;
+    font-size: 1.4rem;
   }
 
   .billed1 h1 {

@@ -51,77 +51,114 @@ p {
 }
 
 /* menu */
-
-.nav_container {
-  width: 80%;
-  margin: 0 auto;
-  clear: both;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.nav_container a {
-  display: inline-block;
-  color: #333;
-  text-decoration: none;
+.logo img {
+  width: 120px;
+  /* height: 50px; */
+  aspect-ratio: 180/64;
 }
 
 nav {
-  background: #fff;
-  height: 80px;
-  line-height: 80px;
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
-  position: sticky;
-  top: 0;
-  left: 0;
-  width: 100%;
+  display: flex;
+  align-items: center;
 }
 
-nav ul.navbar-menu {
+.menu {
+  display: flex;
+  list-style: none;
   margin: 0;
   padding: 0;
-  display: inline-block;
-  float: right;
 }
-nav ul.navbar-menu li {
-  display: inline-block;
-  margin: 0 10px;
-}
-nav ul.navbar-menu li a {
-  color: #666;
-  font-size: 14px;
-}
-nav a#brand {
-  text-transform: uppercase;
 
-  font-weight: 800;
-  font-size: 20px;
+.menu li {
+  margin-right: 20px;
 }
-nav button {
-  background: none;
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu a {
+  display: block;
+  padding: 10px;
+  color: #111010;
+  text-decoration: none;
+  transition: color 0.3s;
+  text-align: end;
+  font-weight: bolder;
+}
+
+.menu a:hover {
+  color: rgb(71, 66, 66);
+}
+
+.burger {
   width: 30px;
-  height: 40px;
-  margin-top: 20px;
-  border: none;
-  display: inline-block;
+  height: 20px;
   cursor: pointer;
+}
+
+.burger .line {
+  width: 100%;
+  height: 2px;
+  background-color: #333;
+  margin-bottom: 5px;
+  transition: 0.2s linear;
+}
+.burger {
   display: none;
 }
-nav button span {
-  width: 30px;
-  height: 40px;
-  height: 2px;
-  background: #333;
-  display: block;
-  margin: 5px 0;
-}
-
-@media (max-width: 768px) {
-  nav ul.navbar-menu {
+@media screen and (max-width: 800px) {
+  .menu {
     display: none;
   }
-
-  nav button {
+  .burger {
     display: block;
   }
+  .burger.active .line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+    transition: 0.2s linear;
+  }
+
+  .burger.active .line:nth-child(2) {
+    opacity: 0;
+    transition: 0.15s linear;
+  }
+
+  .burger.active .line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+    transition: 0.2s linear;
+  }
+
+  nav.active .menu {
+    display: block;
+    background-color: #fff;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+
+  nav.active .menu li {
+    margin: 10px 20px;
+  }
+
+  nav.active .menu a {
+    font-size: 24px;
+  }
+}
+.logo {
+  color: black;
 }
 
 footer {
