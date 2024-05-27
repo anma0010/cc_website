@@ -30,13 +30,13 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 20px; /* Adjust the gap between items as needed */
+  gap: 20px;
   margin-top: 15rem;
 }
 
 .grafik {
   display: grid;
-  position: relative; /* Position relative to allow absolute positioning of child elements */
+  position: relative;
 }
 #career-portal {
   color: rgba(219, 102, 57, 1);
@@ -44,12 +44,12 @@ body {
   letter-spacing: 1px;
   font-weight: 300;
 }
-.greater {
+/* .greater {
   margin-top: 0;
   font-size: 19px !important;
   font-weight: 500;
   padding: 0 5px;
-}
+} */
 .background-image {
   position: absolute;
   top: -221px;
@@ -107,7 +107,7 @@ body {
 }
 .grafikitem {
   display: grid;
-  position: relative; /* Position relative to allow absolute positioning of child elements */
+  position: relative;
 }
 .background-image2 {
   position: absolute;
@@ -121,27 +121,29 @@ body {
 
 .meeting-container {
   display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-columns: 1fr;
   gap: 20px;
   margin-top: 7rem;
-  margin-bottom: 2rem;
+  margin-bottom: 6rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
-.meeting-item1 {
+/* .meeting-item1 {
   padding: 20px;
   height: 300px;
   width: 120px;
   background-color: white;
   margin-left: 2px;
   border: 2px solid rgba(28, 68, 69, 1);
-}
+} */
 
-.meeting-item1 h2 {
+/* .meeting-item1 h2 {
   font-size: 24px;
   margin-bottom: 10px;
-}
+} */
 
-.meeting-button {
+/* .meeting-button {
   background-color: rgba(28, 68, 69, 1);
   border-radius: 5px;
   height: 50px;
@@ -165,8 +167,8 @@ body {
 }
 .meeting-item1 .meeting-button:hover {
   background-color: rgba(28, 68, 69, 1);
-}
-
+} */
+/* 
 .contact-item {
   border: 2px solid rgba(28, 68, 69, 1);
   padding: 20px;
@@ -175,14 +177,14 @@ body {
   width: 120px;
   margin-right: 2px;
   justify-self: end;
-}
+} */
 
 /* .contact-item h2 {
   font-size: 24px;
   margin-bottom: 10px;
 } */
 
-.contact-button {
+/* .contact-button {
   background-color: rgba(219, 102, 57, 1);
   color: rgba(30, 30, 30, 1);
   font-size: 10px;
@@ -190,8 +192,8 @@ body {
   width: 100%;
   border-radius: 5px;
   margin-bottom: 2rem;
-}
-.event-button {
+} */
+/* .event-button {
   background-color: rgba(28, 68, 69, 1);
   color: #fff;
   border-radius: 5px;
@@ -207,13 +209,13 @@ body {
 }
 .event-button:hover {
   background-color: rgba(28, 68, 69, 1);
-}
+} */
 
 .text-container {
   background-color: #ffffff;
 
-  text-align: left;
-  line-height: 2.5;
+  text-align: center;
+  line-height: 2.4;
   justify-self: center;
   align-self: center;
 }
@@ -221,7 +223,8 @@ body {
 .text-container p {
   margin: 0;
   padding: 0;
-  font-size: 1.2em; /* Adjust the font size as needed */
+  /* font-size: 1.4em; */
+  font-size: 28px;
 }
 .video-container {
   display: grid;
@@ -232,7 +235,7 @@ body {
   width: 111vh;
 }
 .ourmission {
-  margin-top: 8rem;
+  margin-top: 12rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -347,6 +350,16 @@ body {
     justify-content: space-around;
     align-items: center;
   }
+  .event-button {
+    background-color: rgba(28, 68, 69, 1);
+    cursor: pointer;
+    color: #ffffff;
+  }
+  .meeting-button {
+    background-color: rgba(219, 102, 57, 1);
+    cursor: pointer;
+    color: #ffffff;
+  }
 }
 @media screen and (max-width: 1070px) {
   .ourmission {
@@ -360,10 +373,10 @@ body {
   }
   .text-content2 {
     order: 2;
-    margin: 0 4rem;
+    margin: 0 8rem;
   }
   .text-content {
-    margin: 0 4rem;
+    margin: 0 8rem;
   }
 }
 @media screen and (max-width: 715px) {
