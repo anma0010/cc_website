@@ -2,13 +2,10 @@ body {
   box-sizing: border-box;
   margin: 0;
 }
-.hero-image {
-  background-image: url("heading.png");
-
-  background-size: cover;
-  background-position: center;
-  height: 900px;
+img {
   width: 100%;
+  height: auto;
+  display: block;
 }
 .hero-heading h1 {
   text-align: center;
@@ -44,12 +41,7 @@ body {
   letter-spacing: 1px;
   font-weight: 300;
 }
-/* .greater {
-  margin-top: 0;
-  font-size: 19px !important;
-  font-weight: 500;
-  padding: 0 5px;
-} */
+
 .background-image {
   position: absolute;
   top: -221px;
@@ -61,22 +53,22 @@ body {
 }
 
 .talent-item {
-  position: relative; /* Position relative to ensure it stays above the background image */
-  margin-left: 50px; /* Adjust this value to position the talent-item */
+  position: relative;
+  margin-left: 50px;
   text-align: center;
-  z-index: 2; /* Ensure the talent-item content is above the background image */
-  background: white; /* Add a background color if needed to enhance visibility */
-  margin: 5px; /* Add margin to ensure content is not touching the edges */
-  border-radius: 8px; /* Optional: Add rounded corners for a nicer look */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+  z-index: 2;
+  background: white;
+  margin: 5px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-top: 4rem;
 }
 
 .profile-image {
   display: block;
-  max-width: 100%; /* Ensure the image is responsive */
+  max-width: 100%;
   height: auto;
-  margin-bottom: 15px; /* Space between image and text */
+  margin-bottom: 15px;
 }
 
 .talent-item h2 {
@@ -128,89 +120,6 @@ body {
   margin-left: 2rem;
   margin-right: 2rem;
 }
-
-/* .meeting-item1 {
-  padding: 20px;
-  height: 300px;
-  width: 120px;
-  background-color: white;
-  margin-left: 2px;
-  border: 2px solid rgba(28, 68, 69, 1);
-} */
-
-/* .meeting-item1 h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
-} */
-
-/* .meeting-button {
-  background-color: rgba(28, 68, 69, 1);
-  border-radius: 5px;
-  height: 50px;
-  width: 100%;
-  color: #fff;
-  font-size: 10px;
-  line-height: 1.5;
-}
-.portal-for {
-  margin: 20px 0 0 0;
-  font-size: 12px;
-}
-.portal-in {
-  margin: 0 !important;
-  color: rgba(219, 102, 57, 1) !important;
-  font-size: 15px;
-}
-.portal-out {
-  margin: 0;
-  font-size: 12px;
-}
-.meeting-item1 .meeting-button:hover {
-  background-color: rgba(28, 68, 69, 1);
-} */
-/* 
-.contact-item {
-  border: 2px solid rgba(28, 68, 69, 1);
-  padding: 20px;
-  background-color: white;
-  height: 300px;
-  width: 120px;
-  margin-right: 2px;
-  justify-self: end;
-} */
-
-/* .contact-item h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
-} */
-
-/* .contact-button {
-  background-color: rgba(219, 102, 57, 1);
-  color: rgba(30, 30, 30, 1);
-  font-size: 10px;
-  height: 35px;
-  width: 100%;
-  border-radius: 5px;
-  margin-bottom: 2rem;
-} */
-/* .event-button {
-  background-color: rgba(28, 68, 69, 1);
-  color: #fff;
-  border-radius: 5px;
-  font-size: 10px;
-  height: 50px;
-  line-height: 1.5;
-  width: 100%;
-  border-radius: 5px;
-}
-
-.contact-button:hover {
-  background-color: rgba(219, 102, 57, 1);
-}
-.event-button:hover {
-  background-color: rgba(28, 68, 69, 1);
-} */
-
 .text-container {
   background-color: #ffffff;
 
@@ -223,15 +132,14 @@ body {
 .text-container p {
   margin: 0;
   padding: 0;
-  /* font-size: 1.4em; */
   font-size: 28px;
 }
 .video-container {
   display: grid;
   place-items: center;
-  height: 76vh; /* Ensure full viewport height */
+  height: 76vh;
   margin: 4rem auto;
-  border: 2px solid black; /* Black border with 2px width */
+  border: 2px solid black;
   width: 111vh;
 }
 .ourmission {
@@ -354,11 +262,23 @@ body {
     background-color: rgba(28, 68, 69, 1);
     cursor: pointer;
     color: #ffffff;
+    border-radius: 5px;
+    padding: 10px 20px;
+  }
+  .event-button:hover {
+    background-color: rgba(38, 88, 89, 1);
+    color: #e0e0e0;
   }
   .meeting-button {
     background-color: rgba(219, 102, 57, 1);
     cursor: pointer;
     color: #ffffff;
+    border-radius: 5px;
+    padding: 10px 20px;
+  }
+  .meeting-button:hover {
+    background-color: rgb(208, 111, 73);
+    color: #e0e0e0;
   }
 }
 @media screen and (max-width: 1070px) {
