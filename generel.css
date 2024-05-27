@@ -1,3 +1,7 @@
+html {
+  --primary: #eb5e28;
+}
+
 @font-face {
   font-family: "ibm_plex_serifregular";
   src: url("ibmplexserif-regular-webfont.woff2") format("woff2"), url("ibmplexserif-regular-webfont.woff") format("woff");
@@ -20,11 +24,13 @@ h1 {
 h2 {
   font-family: "ibm_plex_serifregular";
   text-transform: uppercase;
+  font-size: 1rem;
 }
 
 h3 {
   font-family: "ibm_plex_serifregular";
   text-transform: uppercase;
+  font-size: 1rem;
 }
 
 h4 {
@@ -41,6 +47,7 @@ p {
   font-family: "montserratregular";
   text-transform: uppercase;
   font-weight: bold;
+  font-size: 0.8rem;
 }
 
 /* menu */
@@ -175,8 +182,6 @@ footer h4 {
   background-color: white;
   border: 1px solid black;
   padding: 6px;
-  width: 10%;
-  height: 11%;
 }
 
 .nav-bar-right {
@@ -187,6 +192,7 @@ footer h4 {
 
 .nav-bar-right li {
   margin: 10px 0;
+  padding: 10px;
 }
 
 .nav-bar-right a {
@@ -204,7 +210,8 @@ footer h4 {
 }
 
 .nav-button-right1 {
-  background-color: #eb5e28;
+  background-color: var(--primary);
+  color: black;
   font-family: "montserratregular;";
   padding: 10px;
 }
@@ -225,8 +232,7 @@ footer h4 {
   background-color: white;
   border: 1px solid black;
   padding: 10px;
-  width: 8%;
-  height: 29%;
+
   font-size: 0.7rem;
 }
 
@@ -266,4 +272,9 @@ footer h4 {
 }
 .footersignup a {
   color: black;
+}
+
+A:link {
+  color: black;
+  text-decoration: None;
 }

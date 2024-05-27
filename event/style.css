@@ -138,7 +138,6 @@ footer h4 {
 .billed1 h2 {
   position: absolute;
   color: black; /* Change the text color as needed */
-
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
@@ -204,7 +203,6 @@ footer h4 {
   margin-left: 100px;
 }
 h4 {
-  text-align: center;
   font-size: large;
 }
 h5 {
@@ -218,7 +216,7 @@ h5 {
   }
 
   .billed1 h1 {
-    top: 18%;
+    top: 1%;
     font-size: 3rem; /* Adjust the font size as needed */
     color: black;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
@@ -233,6 +231,125 @@ h5 {
   }
   .billed1 h2 .highlight {
     color: #eb5e28; /* Apply the specific color to the highlighted words */
+  }
+
+  .nav_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+  }
+
+  .navbar-menu li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-container-right,
+  .nav-container-left {
+    display: none;
+  }
+
+  .nav-bar-right,
+  .nav-bar-left {
+    display: none;
+  }
+  footer .col3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-right: 93px;
+  }
+
+  footer .col3 div {
+    margin-bottom: 20px;
+  }
+
+  .footer_nav {
+    padding: 0;
+    list-style: none;
+  }
+
+  .footer_nav li {
+    margin-bottom: 10px;
+  }
+
+  .text-overlay {
+    position: absolute;
+    top: 43%;
+    left: 51%;
+
+    color: white; /* Text color */
+    text-align: center;
+
+    border-radius: 10px; /* Optional: Rounded corners for the overlay */
+  }
+  .nav-container-right,
+  .nav-container-left {
+    display: none;
+  }
+
+  .nav-bar-right,
+  .nav-bar-left {
+    display: none;
+  }
+  h5 {
+    font-size: 0rem;
+  }
+  h3 {
+    font-size: 0rem;
+  }
+
+  .billed1 h1 {
+    top: -2%;
+    font-size: 2rem;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    width: 456px;
+  }
+
+  .billed1 h2 {
+    top: 17%;
+    font-size: 1.2rem; /* Adjust the font size as needed */
+    color: black;
+
+    text-transform: uppercase; /* Make text uppercase */
+  }
+
+  .sign_event_bund {
+    border: 1px solid #084646;
+    background-color: #084646;
+    color: white;
+    padding: 10px 36px;
+    font-size: 10px;
+    cursor: pointer;
+    border-radius: 0;
+    margin-left: -75px;
+    position: absolute;
+    top: 93%;
+  }
+  h3 {
+    padding-top: 0;
+  }
+
+  .grafik {
+    display: none;
+  }
+  .slides {
+    flex-direction: column;
+  }
+
+  .slides img {
+    width: 100%;
+    height: auto;
   }
 }
 
