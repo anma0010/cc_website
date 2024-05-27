@@ -138,7 +138,6 @@ footer h4 {
 .billed1 h2 {
   position: absolute;
   color: black; /* Change the text color as needed */
-
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
@@ -218,7 +217,7 @@ h5 {
   }
 
   .billed1 h1 {
-    top: 18%;
+    top: 1%;
     font-size: 3rem; /* Adjust the font size as needed */
     color: black;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
