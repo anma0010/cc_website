@@ -50,6 +50,10 @@ p {
   font-size: 0.8rem;
 }
 
+.slider h4 {
+  text-align: center;
+}
+
 /* menu */
 header {
   display: flex;
