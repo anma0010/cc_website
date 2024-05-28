@@ -28,6 +28,13 @@ body {
   gap: 40px;
 }
 
+.col_2_2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 40px;
+  gap: 40px;
+}
+
 .front_text {
   padding: 45px;
 }
