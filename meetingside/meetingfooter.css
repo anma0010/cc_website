@@ -5,6 +5,7 @@ footer {
 .col3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px 25px;
 }
 
 footer img {
@@ -71,5 +72,8 @@ A:link {
 
   .footer_nav li {
     margin-bottom: 10px;
+  }
+  footer img {
+    width: 100%;
   }
 }
