@@ -387,7 +387,7 @@ h5 {
 }
 
 .slides {
-  display: flex;
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   transition: transform 0.5s ease-in-out;
 }
