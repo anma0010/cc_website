@@ -267,9 +267,9 @@ footer h4 {
 
 .nav-container-left {
   position: fixed;
-  top: 76%;
+  top: 65%;
   left: 0;
-  transform: translateY(-50%);
+
   background-color: white;
   border: 1px solid black;
   padding: 10px;
