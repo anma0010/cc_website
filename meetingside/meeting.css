@@ -23,9 +23,12 @@ img {
   position: absolute;
   top: 88px;
   left: 38px;
-  width: 200px;
-  height: auto;
+  /* width: 200px;
+  height: auto; */
   opacity: 1;
+  width: 20%;
+  height: auto;
+  display: block;
 }
 .talentchef {
   display: flex;
@@ -339,6 +342,7 @@ img {
   }
   .meeting-container {
     grid-template-columns: 1fr;
+    margin-bottom: 1rem;
   }
   .text-container {
     margin: 0 25px;
@@ -346,9 +350,11 @@ img {
   .event-button-container {
     display: grid;
     grid-template-columns: 200px 200px;
-    gap: 50px;
+    gap: 2px;
     justify-content: space-around;
     align-items: center;
+    padding-right: 5rem;
+    padding-left: 5rem;
   }
   .event-button {
     background-color: rgba(28, 68, 69, 1);
@@ -376,6 +382,12 @@ img {
   .nav-container-left {
     display: none;
   }
+  .mission-item {
+    margin-top: 2rem;
+  }
+  h2 misson {
+    display: inline;
+  }
 }
 @media screen and (max-width: 1070px) {
   .ourmission {
@@ -389,15 +401,11 @@ img {
   }
   .text-content2 {
     order: 2;
-    margin: 0 8rem;
+    margin: 0 3rem;
   }
   .text-content {
-    margin: 0 8rem;
+    margin: 0 3rem;
   }
-  /* .nav-container-right,
-  .nav-container-left {
-    display: none;
-  } */
 }
 @media screen and (max-width: 715px) {
   .mission-item img {
@@ -411,12 +419,19 @@ img {
     margin: 0;
     grid-template-rows: 0.5fr 0.5fr;
   }
+  .text-container p {
+    font-size: 20px;
+  }
+  .hero-heading h1 {
+    font-size: x-large;
+  }
 }
 @media screen and (max-width: 527px) {
   .misson {
-    font-size: 40px;
+    font-size: 30px;
   }
   .support {
-    font-size: 25px;
+    font-size: 20px;
+    margin-top: 3px;
   }
 }
