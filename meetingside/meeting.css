@@ -349,12 +349,10 @@ img {
   }
   .event-button-container {
     display: grid;
-    grid-template-columns: 200px 200px;
+    grid-template-columns: 175px 175px;
     gap: 2px;
     justify-content: space-around;
     align-items: center;
-    padding-right: 5rem;
-    padding-left: 5rem;
   }
   .event-button {
     background-color: rgba(28, 68, 69, 1);
